@@ -12,11 +12,7 @@ const Container = ({ children, className, type }) => {
     containerClassName = `${containerClassName} ${className}`;
   }
 
-  return (
-    <div className={containerClassName} onTouchStart="">
-      {children}
-    </div>
-  );
+  return <div className={containerClassName}>{children}</div>;
 };
 
 Container.propTypes = {
