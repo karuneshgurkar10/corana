@@ -10,11 +10,11 @@ module.exports = {
 
   settings: {
     react: {
-      version: 'detect'
+      version: "detect"
     }
   },
 
-  parser: 'babel-eslint',
+  parser: "babel-eslint",
 
   parserOptions: {
     ecmaVersion: 9,
@@ -23,9 +23,9 @@ module.exports = {
     }
   },
 
-  plugins: ['react', 'react-hooks'],
+  plugins: ["react", "react-hooks"],
 
-  extends: ['zurgbot', 'plugin:react/recommended']
+  extends: ["zurgbot", "plugin:react/recommended"]
 };
 
 /* eslint-enable */
