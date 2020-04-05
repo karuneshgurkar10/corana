@@ -13,7 +13,7 @@ const Container = ({ children, className, type }) => {
   }
 
   return (
-    <div className={containerClassName} ontouchstart="">
+    <div className={containerClassName} onTouchStart="">
       {children}
     </div>
   );
