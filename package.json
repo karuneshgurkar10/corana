@@ -2,7 +2,6 @@
   "name": "gatsby-starter-leaflet",
   "description": "A Gatsby starter with Leafet!",
   "version": "0.2.2",
-  "author": "Colby Fayock <hello@colbyfayock.com>",
   "dependencies": {
     "axios": "^0.19.2",
     "gatsby": "^2.19.43",
@@ -67,9 +66,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/colbyfayock/gatsby-starter-leaflet"
-  },
-  "bugs": {
-    "url": "https://github.com/colbyfayock/gatsby-starter-leaflet/issues"
+    "url": "https://github.com/karuneshgurkar10/corana"
   }
 }
